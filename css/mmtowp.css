@@ -1,0 +1,51 @@
+.mmtowp_menu::first-letter {
+	text-transform: capitalize !important;
+}
+.mmtowop_lvl {
+	background-color:#ddd;
+	width:100%;
+}
+.mmtowop_lvl a,.mmtowop_lvl .mmtowp_link {
+	padding:8px;
+	font-size:12px;
+}
+.mmtowop_lvl_2,.mmtowop_lvl_3,.mmtowop_lvl_4,.mmtowop_lvl_5,.mmtowop_lvl_6 {
+	display:none;
+	font-size:11px;
+}
+
+.mmtowp_expand {
+	margin-left:8px;
+	margin-right:3px;
+	float:right;
+	cursor:pointer;
+	margin-top: 5%;
+}
+.mmtowp_link {
+    cursor: pointer;
+}
+
+.mmtowop_lvl a,.mmtowop_lvl .mmtowp_link {
+	display:block;
+}
+.mmtowop_lvl_1 {
+}
+.mmtowop_lvl_2 a,.mmtowop_lvl_2 .mmtowp_link {
+	margin-left:8px;
+}
+.mmtowop_lvl_3 a,.mmtowop_lvl_3 .mmtowp_link {
+	margin-left:16px;
+	border-left:1px dotted #FFF;
+}
+.mmtowop_lvl_4 a,.mmtowop_lvl_4 .mmtowp_link {
+	margin-left:24px;
+	border-left:1px dashed #FFF;
+}
+.mmtowop_lvl_5 a,.mmtowop_lvl_5 .mmtowp_link {
+	margin-left:32px;
+	border-left:1px dotted #FFF;
+}
+.mmtowop_lvl_6 a,.mmtowop_lvl_6 .mmtowp_link {
+	margin-left:40px;
+	border-left:1px dashed #FFF;
+}
